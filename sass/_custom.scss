@@ -31,8 +31,15 @@ $global-beige: rgba(220,212,192,1);
 		h1{ color: rgba(255,255,255,1); border-top: 1px solid #999; border-bottom: 1px solid #999; .global-orange-text { color: $global-orange; } }
 	}
 	}
+.slide3-wrap {background-image: url(../images/hacker.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}	
 .slide3 {
-	padding: emCalc(150px) 0;
-	h2 { border-top: 1px solid #222; border-bottom: 1px solid #222; padding: emCalc(20px); }
+	background-color: rgba(0,0,0,.9);
+	padding: emCalc(250px) 0;
+	color: #999;
+	h2 { color: #999; border-top: 1px solid #999; border-bottom: 1px solid #999; padding: emCalc(30px) 0; }
 	#united-text { color: $global-orange; font-weight:500; }
 }

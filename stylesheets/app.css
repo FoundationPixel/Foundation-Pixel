@@ -54,16 +54,27 @@
 }
 
 /* line 34, ../sass/_custom.scss */
+.slide3-wrap {
+  background-image: url(../images/hacker.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 39, ../sass/_custom.scss */
 .slide3 {
-  padding: 9.375em 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 15.625em 0;
+  color: #999;
 }
-/* line 36, ../sass/_custom.scss */
+/* line 43, ../sass/_custom.scss */
 .slide3 h2 {
-  border-top: 1px solid #222;
-  border-bottom: 1px solid #222;
-  padding: 1.25em;
+  color: #999;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 1.875em 0;
 }
-/* line 37, ../sass/_custom.scss */
+/* line 44, ../sass/_custom.scss */
 .slide3 #united-text {
   color: #f37321;
   font-weight: 500;
