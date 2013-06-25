@@ -1,0 +1,38 @@
+$global-orange: rgba(243,115,33,1);
+$global-beige: rgba(220,212,192,1);
+.slide1 {
+	background-image: url(../images/Foundation_Pixel_Top_Banner_Image_1.png);
+	background-attachment: fixed;
+	background-position: center;
+	article {
+		margin-top: 100px;
+		margin-bottom: 100px;
+		}
+	article img {
+	  	width: 45%;
+	  	display: block;
+	  	margin: 20px auto;
+		}
+	}
+.slide2 {
+	background-color: $global-orange;
+	padding: emCalc(150px) 0;
+	transition:all .5s ease-in;
+	article h1 { color: #222; 
+		padding: emCalc(20px) 0;
+		margin: 0;
+		border-top: 1px solid #222;
+		border-bottom: 1px solid #222;
+		transition:all .5s ease-in;
+		.global-orange-text { font-weight: 500; transition: all .5s ease-in; transition-delay: .3s; }
+		}
+	&:hover {
+		background-color: #222;
+		h1{ color: rgba(255,255,255,1); border-top: 1px solid #999; border-bottom: 1px solid #999; .global-orange-text { color: $global-orange; } }
+	}
+	}
+.slide3 {
+	padding: emCalc(150px) 0;
+	h2 { border-top: 1px solid #222; border-bottom: 1px solid #222; padding: emCalc(20px); }
+	#united-text { color: $global-orange; font-weight:500; }
+}

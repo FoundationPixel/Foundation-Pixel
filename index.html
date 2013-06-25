@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" >
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Foundation 4</title>
+<link rel="stylesheet" href="stylesheets/app.css" />
+<script src="javascripts/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+<div class="slide1">
+  <div class="row">
+    <article class="small-12 columns"> <img src="images/Foundation Pixel Logo - No Text.png">
+      <h1 class="text-center">FOUNDATION PIXEL</h1>
+    </article>
+  </div>
+</div>
+<div class="slide2">
+  <div class="row">
+    <article class="small-12 columns">
+      <h1 class="subheader text-center">We are a freelance design team of <span class="global-orange-text">Full Sail University</span> Students</h1>
+    </article>
+  </div>
+</div>
+<div class="slide3">
+  <div class="row">
+    <article class="small-12 columns">
+      <h2 class="text-center subheader">We are united by <span id="united-text" data-typer-targets="Web Design and Development , Graphic Design, Mobile Design and Development, Digital Arts and Design">Design</span></h2>
+      <p>We are no longer separated by Campus and Online boundaries. We are students working with our peers to develop our portfolios, resumes, and career enhancing experiences.</p>
+    </article>
+  </div>
+</div>
+<script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+  '.js><\/script>')
+  </script> 
+<script src="javascripts/foundation/foundation.js"></script> 
+<script src="javascripts/foundation/foundation.alerts.js"></script> 
+<script src="javascripts/foundation/foundation.clearing.js"></script> 
+<script src="javascripts/foundation/foundation.cookie.js"></script> 
+<script src="javascripts/foundation/foundation.dropdown.js"></script> 
+<script src="javascripts/foundation/foundation.forms.js"></script> 
+<script src="javascripts/foundation/foundation.interchange.js"></script> 
+<script src="javascripts/foundation/foundation.joyride.js"></script> 
+<script src="javascripts/foundation/foundation.magellan.js"></script> 
+<script src="javascripts/foundation/foundation.orbit.js"></script> 
+<script src="javascripts/foundation/foundation.placeholder.js"></script> 
+<script src="javascripts/foundation/foundation.reveal.js"></script> 
+<script src="javascripts/foundation/foundation.section.js"></script> 
+<script src="javascripts/foundation/foundation.tooltips.js"></script> 
+<script src="javascripts/foundation/foundation.topbar.js"></script>
+<script src="javascripts/jquery-2.0.0.js"></script>
+<script src="javascripts/jquery.typer.js"></script> 
+<script>
+	$(document).ready(function() {
+		$('[data-typer-targets]').typer({
+			  highlightSpeed    : 200000,
+			  typeSpeed         : 100000,
+			  clearDelay        : 500000,
+			  typeDelay         : 200000,
+			  clearOnHighlight  : true,
+			  typerDataAttr     : 'data-typer-targets',
+			  typerInterval     : 200000
+			});
+    });
+</script> 
+<script>
+	function () {
+    	$(document).foundation();
+	}
+  </script>
+</body>
+</html>
