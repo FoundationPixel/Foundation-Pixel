@@ -1,4 +1,6 @@
 $global-orange: rgba(243,115,33,1);
+$global-orange-darken: darken($global-orange, 10%);
+
 $global-beige: rgba(220,212,192,1);
 .slide1 {
 	background-image: url(../images/Foundation_Pixel_Top_Banner_Image_1.png);
@@ -44,8 +46,16 @@ background-attachment: fixed;
 	#united-text { color: $global-orange; font-weight:500; }
 }
 .slide4 {
-	padding: emCalc(250px) 0;
+	padding: emCalc(150px) 0;
 	h2 { color: #222; border-top: 1px solid #222; border-bottom: 1px solid #222; padding: emCalc(30px) 0; span.design{color: $global-orange; font-weight:500; }}
 	}
-
+.slide5 {
+	padding: emCalc(150px) 0;
+	background-color: #222;
+	color:#999;
+	h2 { color: #999; border-top: 1px solid #999; border-bottom: 1px solid #999; padding: emCalc(30px) 0; }
+	span.design{color: $global-orange; font-weight:500; }
+	label{ padding: emCalc(10px) 0; color: #999; }
+	a.button { background-color:$global-orange; border: $global-orange; &:hover { background-color:$global-orange-darken; }}
+	}
 	
