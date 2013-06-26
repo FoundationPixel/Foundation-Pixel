@@ -58,4 +58,8 @@ background-attachment: fixed;
 	label{ padding: emCalc(10px) 0; color: #999; }
 	a.button { background-color:$global-orange; border: $global-orange; &:hover { background-color:$global-orange-darken; }}
 	}
-	
+.slide6 {
+	background-color: $global-orange;
+	padding: emCalc(20px) 0;
+	p { margin:0; }
+}	
