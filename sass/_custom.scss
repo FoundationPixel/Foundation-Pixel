@@ -37,9 +37,15 @@ background-position: center;
 background-attachment: fixed;
 }	
 .slide3 {
-	background-color: rgba(0,0,0,.9);
+	background-color: rgba(0,0,0,.7);
 	padding: emCalc(250px) 0;
 	color: #999;
 	h2 { color: #999; border-top: 1px solid #999; border-bottom: 1px solid #999; padding: emCalc(30px) 0; }
 	#united-text { color: $global-orange; font-weight:500; }
 }
+.slide4 {
+	padding: emCalc(250px) 0;
+	h2 { color: #222; border-top: 1px solid #222; border-bottom: 1px solid #222; padding: emCalc(30px) 0; span.design{color: $global-orange; font-weight:500; }}
+	}
+
+	

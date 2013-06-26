@@ -63,7 +63,7 @@
 
 /* line 39, ../sass/_custom.scss */
 .slide3 {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 15.625em 0;
   color: #999;
 }
@@ -76,6 +76,23 @@
 }
 /* line 44, ../sass/_custom.scss */
 .slide3 #united-text {
+  color: #f37321;
+  font-weight: 500;
+}
+
+/* line 46, ../sass/_custom.scss */
+.slide4 {
+  padding: 15.625em 0;
+}
+/* line 48, ../sass/_custom.scss */
+.slide4 h2 {
+  color: #222;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  padding: 1.875em 0;
+}
+/* line 48, ../sass/_custom.scss */
+.slide4 h2 span.design {
   color: #f37321;
   font-weight: 500;
 }
