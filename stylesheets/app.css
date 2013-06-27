@@ -1,29 +1,29 @@
 @charset "UTF-8";
-/* line 3, ../sass/_custom.scss */
+/* line 5, ../sass/_custom.scss */
 .slide1 {
   background-image: url(../images/Foundation_Pixel_Top_Banner_Image_1.png);
   background-attachment: fixed;
   background-position: center;
 }
-/* line 7, ../sass/_custom.scss */
+/* line 9, ../sass/_custom.scss */
 .slide1 article {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-/* line 11, ../sass/_custom.scss */
+/* line 13, ../sass/_custom.scss */
 .slide1 article img {
   width: 45%;
   display: block;
   margin: 20px auto;
 }
 
-/* line 17, ../sass/_custom.scss */
+/* line 19, ../sass/_custom.scss */
 .slide2 {
   background-color: #f37321;
   padding: 9.375em 0;
   transition: all .5s ease-in;
 }
-/* line 21, ../sass/_custom.scss */
+/* line 23, ../sass/_custom.scss */
 .slide2 article h1 {
   color: #222;
   padding: 1.25em 0;
@@ -32,41 +32,112 @@
   border-bottom: 1px solid #222;
   transition: all .5s ease-in;
 }
-/* line 27, ../sass/_custom.scss */
+/* line 29, ../sass/_custom.scss */
 .slide2 article h1 .global-orange-text {
   font-weight: 500;
   transition: all .5s ease-in;
   transition-delay: .3s;
 }
-/* line 29, ../sass/_custom.scss */
+/* line 31, ../sass/_custom.scss */
 .slide2:hover {
   background-color: #222;
 }
-/* line 31, ../sass/_custom.scss */
+/* line 33, ../sass/_custom.scss */
 .slide2:hover h1 {
   color: white;
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
 }
-/* line 31, ../sass/_custom.scss */
+/* line 33, ../sass/_custom.scss */
 .slide2:hover h1 .global-orange-text {
   color: #f37321;
 }
 
-/* line 34, ../sass/_custom.scss */
-.slide3 {
-  padding: 9.375em 0;
-}
 /* line 36, ../sass/_custom.scss */
-.slide3 h2 {
-  border-top: 1px solid #222;
-  border-bottom: 1px solid #222;
-  padding: 1.25em;
+.slide3-wrap {
+  background-image: url(../images/Hacker.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-/* line 37, ../sass/_custom.scss */
+
+/* line 41, ../sass/_custom.scss */
+.slide3 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15.625em 0;
+  color: #999;
+}
+/* line 45, ../sass/_custom.scss */
+.slide3 h2 {
+  color: #999;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 1.875em 0;
+}
+/* line 46, ../sass/_custom.scss */
 .slide3 #united-text {
   color: #f37321;
   font-weight: 500;
+}
+
+/* line 48, ../sass/_custom.scss */
+.slide4 {
+  padding: 9.375em 0;
+}
+/* line 50, ../sass/_custom.scss */
+.slide4 h2 {
+  color: #222;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  padding: 1.875em 0;
+}
+/* line 50, ../sass/_custom.scss */
+.slide4 h2 span.design {
+  color: #f37321;
+  font-weight: 500;
+}
+
+/* line 52, ../sass/_custom.scss */
+.slide5 {
+  padding: 9.375em 0;
+  background-color: #222;
+  color: #999;
+}
+/* line 56, ../sass/_custom.scss */
+.slide5 h2 {
+  color: #999;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 1.875em 0;
+}
+/* line 57, ../sass/_custom.scss */
+.slide5 span.design {
+  color: #f37321;
+  font-weight: 500;
+}
+/* line 58, ../sass/_custom.scss */
+.slide5 label {
+  padding: 0.625em 0;
+  color: #999;
+}
+/* line 59, ../sass/_custom.scss */
+.slide5 a.button {
+  background-color: #f37321;
+  border: #f37321;
+}
+/* line 59, ../sass/_custom.scss */
+.slide5 a.button:hover {
+  background-color: #d55a0c;
+}
+
+/* line 61, ../sass/_custom.scss */
+.slide6 {
+  background-color: #f37321;
+  padding: 1.25em 0;
+}
+/* line 64, ../sass/_custom.scss */
+.slide6 p {
+  margin: 0;
 }
 
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
